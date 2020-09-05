@@ -40,7 +40,7 @@ function setup()
     bird = new Bird(100, 100);
 
     ground = new Ground(600, height, 1200, 20);
-	platform = new Ground(150, 305, 300, 170);
+    platform = new Ground(150, 305, 300, 170);
 }
 
 function draw()
@@ -53,7 +53,7 @@ function draw()
     console.log(box2.body.angle);
 
     ground.display();
-	platform.display();
+    platform.display();
     
     box1.display();
     box2.display();
